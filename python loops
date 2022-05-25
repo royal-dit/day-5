@@ -1,0 +1,13 @@
+# day 5.1 # average height generator
+hieght_asker = input("Enter the height of students:").split()
+print(hieght_asker)
+for i in range (len(hieght_asker)):
+ hieght_asker[i] = int(hieght_asker[i])
+print(hieght_asker)
+highest_score = 0
+for n in hieght_asker:
+  if n > highest_score:
+    highest_score=n
+print(f"The higest score is {highest_score}")
+
+
